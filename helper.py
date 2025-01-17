@@ -2,6 +2,8 @@ from datetime import datetime
 from googleapiclient.discovery import build
 from collections import Counter
 import re
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 import emoji
