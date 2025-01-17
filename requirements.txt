@@ -9,3 +9,4 @@ emoji
 google-api-python-client
 nltk
 textblob
+requests
